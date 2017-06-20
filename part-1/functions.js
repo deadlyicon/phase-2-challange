@@ -1,5 +1,3 @@
-//Write a function weekday(date) to find the weekday for a given Date object, returing either 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', or 'Sun'.
-
 function weekday(date) {
   var day = date.getDay();
   var dayName = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"]
@@ -7,8 +5,18 @@ function weekday(date) {
   return dayName[day];
 }
 
-let date = new Date('2017, 6, 19')
+function snippet(string, maxlength) {
+    var selected = string.slice(0, maxlength);
+    if(string.length > maxlength) {
+       return selected + "...";
+  }  else {
+       return selected
+  }
+};
 
-console.log(weekday(date));
+function numProps(obj) {
+  var count = Object.keys(obj);
+  return console.log(count.length);
+}
 
-module.export = weekday
+module.export = weekday, snippet, numProps
