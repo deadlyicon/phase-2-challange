@@ -1,6 +1,8 @@
   QUIZ Phase 2
 
-  --When you run a command in the terminal, where does BASH look for that command?
+  --When you run a command in the terminal, where does BASH look for that command
+
+  /bin
 
   --On a UNIX computer, how do you stop a running process?
 
@@ -41,9 +43,15 @@
 
   --When a terminal command completes, how can you tell if it was successful or not?
 
+  With zsh, the arrow on the left side turns green, and turns red when it fails
+
   --What does your ~/.gitconfig have in it? (paste the whole file here)
 
+  no such file or directory
+
   --What is the difference between a relative and absolute path?
+
+  A relative path navigates from the current file, while absolute routes from the home directory
 
   Lets say you have the following file structure
 
@@ -58,8 +66,18 @@
 
   --And you were in the linkedin-for-dancers folder. What command would you use to change folders to the pinterest-for-dogs folder?
 
+  => .. ENTER => cd pinterest-for-dogs ENTER
+
   --What keyboard shortcut do you use, in your editor, when you want to open a specific file?
+
+  Command-T
 
   --What files or folders do you want all git repositories to ignore?
 
+  node_modules
+
   --What is the main difference between == and === in JavaScript?
+
+  ===  only considers values equal that are also the same type
+
+  == compares equality, but is not type specific

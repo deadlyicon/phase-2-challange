@@ -19,4 +19,4 @@ function numProps(obj) {
   return console.log(count.length);
 }
 
-module.export = weekday, snippet, numProps
+ module.exports = weekday(), snippet(), numProps();

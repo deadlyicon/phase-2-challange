@@ -1,0 +1,14 @@
+.title {
+  border: 1px;
+  display: inline;
+  text-align: left;
+}
+
+.cart {
+  display: inline;
+  text-align: right;
+}
+
+.sections {
+  border-width: medium;
+}

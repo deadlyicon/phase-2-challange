@@ -1,0 +1,25 @@
+{
+  "lockfileVersion": 1,
+  "dependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  },
+  "name": "phase-2-challange",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukenems/phase-2-challange.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukenems/phase-2-challange/issues"
+  },
+  "homepage": "https://github.com/lukenems/phase-2-challange#readme",
+  "description": ""
+}
